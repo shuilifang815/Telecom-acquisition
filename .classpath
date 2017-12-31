@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="F:/杰普/Mybaties/电信采集/资料/woss/jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/杰普/Mybaties/电信采集/资料/woss/jar/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="F:/杰普/Mybaties/电信采集/资料/woss/jar/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="F:/杰普/Mybaties/电信采集/资料/woss/jar/woss_interface.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

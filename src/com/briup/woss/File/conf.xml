@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woss>
+	<dbstore class="com.briup.woss.Server.DBStoreImpl">
+		<url>jdbc:oracle:thin:@localhost:1521:XE</url>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<username>oracle</username>
+		<password>orcle</password>
+		<back-file>list.txt</back-file>
+	</dbstore>
+
+	<logger class="com.briup.util.LoggerImpl">
+		<log-properties>src/com/briup/woss/File/log4j.properties</log-properties>
+	</logger>
+
+	<backup class="com.briup.util.BackUPImpl">
+		<back-temp>src/file</back-temp>
+	</backup>
+
+	<gather class="com.briup.woss.client.GatherImpl">
+		<src-file>src/com/briup/woss/File/temp.txt</src-file>
+		<back_file>map.txt</back_file>
+	</gather>
+
+	<client class="com.briup.woss.client.ClientImpl">
+		<ip>127.0.0.1</ip>
+		<port>9999</port>
+	</client>
+
+	<server class="com.briup.woss.Server.ServrImpl">
+		<port>9999</port>
+	</server>
+</woss>
